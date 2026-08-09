@@ -1,0 +1,118 @@
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  background: #eef6f3;
+}
+
+.sidebar {
+  width: 290px;
+  background: linear-gradient(180deg, #173b34, #102b29);
+  color: #eefcf8;
+  padding: 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.brand small {
+  color: #b5eee3;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.brand-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #ffcc4d;
+  color: #173b34;
+  font-size: 1.7rem;
+}
+
+.nav-stack {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.nav-link {
+  color: #ccdcd9;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background: #233f3c;
+  color: #ffffff;
+}
+
+.api-panel {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+}
+
+.api-panel h3 {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #bce8dd;
+}
+
+.api-panel code {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.72rem;
+}
+
+.content-panel {
+  flex: 1;
+  padding: 2rem;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.page-header h2 {
+  font-size: 2rem;
+  margin-top: 0.25rem;
+  color: #173b34;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  color: #728B86;
+}
+
+.component-page {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 12px 50px rgba(34, 71, 66, 0.08);
+}
+
+.component-page h2 {
+  margin-bottom: 0.5rem;
+}
+
